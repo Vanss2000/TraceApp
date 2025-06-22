@@ -8,14 +8,14 @@
   list-style: none;
 }
 
-.header__link {
+.menu {
   text-decoration: none;
   color: #333;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
-.header__link:hover {
+.menu:hover {
   color: #007bff;
 }
 
@@ -31,9 +31,55 @@
 
 .btn--primary {
   background-color: #0056b3;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .btn--primary:hover {
-  background-color: #b30000;
+  background-color: #dfd550;
 }
+
+.hero__content {
+  flex: 1;
+}
+
+.titulo {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.botones {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .botones {
+    justify-content: flex-start;
+  }
+}
+
+.imagee img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: #022e5e;
+  border: 2px solid #004691;
+}
+
+.btn--secondary:hover {
+  background-color: #90c2f7;
+  color: rgb(2, 0, 0);
+}
+

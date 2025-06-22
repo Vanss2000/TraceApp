@@ -1,0 +1,22 @@
+.hero {
+  background: linear-gradient(135deg, #2f80d6, #5db984);
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__content,
+
+.imagee {
+  z-index: 1;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.05);
+  z-index: 0;
+}
