@@ -26,3 +26,20 @@
     text-align: left;
   }
 }
+
+.secciones {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .secciones {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+  }
+}
