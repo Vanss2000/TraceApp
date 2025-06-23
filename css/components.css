@@ -109,6 +109,9 @@
 
 .caracteristicas__text {
   font-size: 14px;
-  color: #333;
+  color: #000000;
 }
 
+.precios {
+  background-color: #eaf0fb;
+}
