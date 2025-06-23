@@ -62,3 +62,22 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.footer__contenido {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+  .footer__contenido {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
